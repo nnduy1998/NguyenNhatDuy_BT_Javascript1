@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bài tập JS</h1>
+    <hr>
+    <h3>Bài 1 - Tính tiền lương nhân viên</h3>
+    <input type="text" name="" id="soNgay" placeholder="Nhập số ngày làm">
+    <button onclick="tinhTienLuong(event)">Tính tiền lương</button>
+    <h3 id="hienThiKQTienLuong" style="display: none;">Tiền lương : <span id="spanKetQuaTienLuong">10</span></h3>
+    <hr>
+    
+    <h3>Bài 2 - Tính giá trị trung bình</h3>
+    <input type="number"  id="soThu1" placeholder="Nhập số thứ 1">
+    <input type="number"  id="soThu2" placeholder="Nhập số thứ 2">
+    <input type="number"  id="soThu3" placeholder="Nhập số thứ 3">
+    <input type="number"  id="soThu4" placeholder="Nhập số thứ 4">
+    <input type="number"  id="soThu5" placeholder="Nhập số thứ 5">
+    <button onclick="tinhGiaTriTB(event)">Tính giá trị trung bình</button>
+    <h3 id="giaTriTB" style="display: none;">Giá trị trung bình :
+         <span id="spanGiaTriTB">5</span> </h3>
+    <hr>
+
+    <h3>Bài 3 - Quy Đổi tiền</h3>
+    <input type="number" id="soTien" placeholder="Nhập vào số tiền ($)">
+    <button onclick="doiTien(event)">Đổi tiền</button>
+    <h3 id="kqDoiTien" style="display: none;">Số tiền sau khi đổi là : 
+        <span id="spanDoiTien">15</span> <span>VNĐ</span> </h3>
+    <hr> 
+    
+    <h3>Bài 4 - Tính diện tích, chu vi hình chữ nhật</h3>
+    <input type="number" id="chieuDai" placeholder="Nhập chiều dài">
+    <input type="number" id="chieuRong" placeholder="Nhập chiều rộng">
+    <button onclick="tinhCV(event)">Tính chu vi</button>
+    <button onclick="tinhDienTich(event)">Tính diện tích</button>
+    <h3 id="kqChuVi" style="display: none;">Chu vi : <span id="spanCV"></span></h3>
+    <h3 id="kqDienTich" style="display: none;">Diện tích : <span id="spanDT"></span></h3>
+    <hr>
+
+    <h3>Bài 5 - Tính tổng 2 ký số</h3>
+    <input type="number" id="kySo" placeholder="Nhập vào số có 2 chữ số">
+    <button onclick="tongKySo(event)">Tính</button>
+    <h3 id="kqTinhTongKySo" style="display: none;">Kết quả : <span id="spanKQ"></span> </h3>
+    <script src="./main.js"></script>
+</body>
+</html>
